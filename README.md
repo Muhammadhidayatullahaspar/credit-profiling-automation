@@ -10,7 +10,7 @@ This project aims to automate the credit profiling system by leveraging UiPath f
 - Email notification feature to deliver machine learning results
 
 ## Installation
-1. Clone the repository: `git clone https://github.com/your_username/credit-profiling-system.git`
+1. Clone the repository: `git clone https://github.com/Muhammadhidayatullahaspar/credit-profiling-automation.git`
 2. Install the required dependencies: `pip install -r requirements.txt`
 3. Set up the UiPath automation environment (provide necessary instructions if applicable)
 4. Start the Flask application: `python app.py`
