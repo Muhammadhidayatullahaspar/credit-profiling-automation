@@ -1,0 +1,81 @@
+{
+  "name": "Testing credit risk",
+  "description": "Blank Process",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.20.1]",
+    "UiPath.Mail.Activities": "[1.18.2]",
+    "UiPath.System.Activities": "[23.4.2]",
+    "UiPath.Testing.Activities": "[23.4.0]",
+    "UiPath.UIAutomation.Activities": "[23.4.4]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "23.4.0.0",
+  "projectVersion": "1.0.3",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "b74dbf52-65e1-4567-b96e-8b69fa76396e",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Ambilexcel.xaml",
+      "uniqueId": "83aa07a5-7fe7-405c-a630-2d90d68da1bd",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Hapusfileexcel.xaml",
+      "uniqueId": "90be13de-6be2-4260-be73-ecef80d0e391",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "KirimEmail.xaml",
+      "uniqueId": "b682c97a-4fc3-484a-9e21-bf8a9c78aecc",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {
+    "iconUrl": ".package/goodcredit-2.jpg"
+  },
+  "targetFramework": "Windows"
+}
